@@ -1,0 +1,64 @@
+body { 
+  padding: 0; 
+  margin: 0; 
+  font-family: verdana; 
+} 
+
+.container { 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+  height: 100vh; 
+  background-color: #f0f0f0; 
+} 
+
+h1 { 
+  color: rgb(47, 17, 58); 
+  text-align: center; 
+  margin-bottom: 20px; /* Added margin for spacing */ 
+} 
+
+.digit { 
+  font-size: 150px; 
+  color: black; 
+} 
+
+.txt { 
+  font-size: 30px; 
+  color: black; 
+} 
+
+#buttons { 
+  margin-top: 30px; /* Adjusted margin for better spacing */ 
+} 
+
+.btn { 
+  width: 100px; 
+  padding: 10px 15px; 
+  margin: 0px 20px; 
+  border-radius: 10px; /* Simplified border-radius for all buttons */ 
+  cursor: pointer; 
+  font-size: 20px; 
+  transition: 0.5s; 
+  color: white; 
+  font-weight: 500; 
+} 
+
+#start { 
+  background-color: #009779; 
+} 
+
+#reset { 
+  background-color: #0e85fc; 
+} 
+
+#stop { 
+  background-color: #c91400; 
+}
+
+.center{
+  text-align: center;
+  margin: auto;
+}
